@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Xin cách trả lời gái</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #111;
+      font-family: 'Courier New', monospace;
+    }
+
+    .typing-container {
+      font-size: 32px;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid rgba(255,255,255,0.75);
+      animation: blinkCursor 0.75s step-end infinite;
+      background: linear-gradient(90deg, #ff0055, #00ffff, #00ff00, #ffcc00, #ff0055);
+      background-size: 300% 300%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: typing 4s steps(40, end), blinkCursor 0.75s step-end infinite, colorMove 5s infinite linear;
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+
+    @keyframes blinkCursor {
+      0%, 100% { border-color: transparent; }
+      50% { border-color: rgba(255,255,255,0.75); }
+    }
+
+    @keyframes colorMove {
+      0% { background-position: 0% 50%; }
+      100% { background-position: 100% 50%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="typing-container"> 😢 Ê HOÀNG MAI XIN TIP TRẢ LỜI GÁI 😢</div>
+</body>
+</html>
